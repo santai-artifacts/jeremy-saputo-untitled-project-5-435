@@ -102,7 +102,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: white;
+            background: linear-gradient(135deg, #4169E1 0%, #1E3A8A 100%);
             padding: 40px;
             border-radius: 16px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
@@ -116,20 +116,25 @@
         }
 
         .game-over h2 {
-            color: #4169E1;
+            color: white;
             font-size: 2em;
             margin-bottom: 15px;
         }
 
         .game-over p {
-            color: #666;
+            color: white;
             font-size: 1.2em;
             margin-bottom: 20px;
         }
 
         .game-over button {
-            background: #4169E1;
+            background: white;
+            color: #4169E1;
             padding: 12px 40px;
+        }
+
+        .game-over button:hover {
+            background: #f0f0f0;
         }
 
         .overlay {
